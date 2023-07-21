@@ -1,0 +1,21 @@
+{
+    "name": "gilmar.2970/php-composer",
+    "description": "Projeto que busca os cursos no site do Senac",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Gilmar2970\\PhpComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gilmar Czeika",
+            "email": "gilmarczeika@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.7",
+        "symfony/dom-crawler": "^6.3",
+        "symfony/css-selector": "^6.3"
+    }
+}
